@@ -1,0 +1,19 @@
+.empty{
+
+}
+
+.clipboard{
+    width: 56px;
+    height: 56px;
+}
+
+.empty h2{
+}
+span{
+    width: 20px;
+    height: 20px;
+    border-radius:8px;
+    background-color: var(--gray-700);
+    color:white;
+    margin-left: 0;
+}

@@ -1,0 +1,83 @@
+.taskList {
+  margin-top: 40px;
+}
+.task {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--gray-100);
+}
+
+input [type="checkBox"] {
+  border-color: aqua;
+  background-color: red;
+}
+
+.trashButton {
+  background-color: transparent;
+  color: var(--gray-100);
+}
+.trashButton:hover {
+  color: var(--blue);
+}
+
+input[type="checkbox"] {
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:before {
+  /* check */
+
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+input[type="checkbox"]:checked:after {
+  /* check */
+
+  width: 24px;
+  height: 24px;
+
+  opacity: 0.9;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+span {
+  margin: 0px 15px;
+}
+
+@media (max-width: 760px) {
+  .taskBoard {
+    display: flex;
+    align-items: center;
+    width: 10px;
+  }
+
+  .task {
+    margin: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--gray-100);
+    width: 90%;
+  }
+}
