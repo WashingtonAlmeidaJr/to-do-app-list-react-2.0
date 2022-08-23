@@ -1,0 +1,35 @@
+.header{
+padding: 0;
+margin-top:0;
+background: var(--gray-700);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;
+margin: 0;
+flex-wrap: nowrap;
+flex-direction: row;
+align-content: center;
+width: 1000px;
+}
+
+.logo {
+justify-items: center;
+padding: 0;
+margin: 0;
+height: 6em;
+padding: 1.5em;
+will-change: filter;
+}
+.logo:hover {
+filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@media (max-width:760px){
+.header{
+    width: 500px;
+}
+}

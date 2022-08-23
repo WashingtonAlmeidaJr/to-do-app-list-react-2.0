@@ -1,0 +1,43 @@
+.newTask{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    color:var(--gray-100);
+    width:60%;  
+}
+
+textarea::placeholder{
+    color:var(--gray-100);
+}
+
+button{
+    display: flex;
+    color:var(--gray-100);
+    align-items: center;
+    border:0;
+    padding: 16px;
+    margin-left: 6px;
+    border-radius: 8px;
+    background-color: var(--blue);
+}
+
+
+@media (max-width:760px){
+    textarea{
+        width: 60%;
+    }
+
+    .newTask{
+        height:3.5rem
+    }
+}
+
+    
+
+

@@ -1,0 +1,22 @@
+.taskBoard{
+    background-color: var(--gray-600);
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    width: 50rem;
+    height:auto;
+    color:var(--blue);
+    padding: 10px;
+}
+
+@media (max-width:760px){
+    .info{
+        width: 24rem;
+
+    }
+
+}
+
